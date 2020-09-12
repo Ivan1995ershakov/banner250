@@ -107,19 +107,19 @@ function handleComplete(evt,comp) {
 	.logo img{
     position: absolute;
 		z-index: 100;
-		width: 140px;
-		top:25px;
-		left: 50px;
+		width: 230px;
+		top:29px;
+		left: 5px;
 		animation-name: logo_img;
-		animation-duration: 11s;
+		animation-duration: 10s;
 		animation-iteration-count: infinite;
 		opacity: 0;
 	}
 	@keyframes logo_img {
-		0%{opacity: 0; top:20px;}
-		8%{opacity: 1; top:25px;}
-		13%{opacity: 1; top:25px;}
-		23%{opacity: 0; top:30px;}
+		0%{opacity: 0; top:19px;}
+		8%{opacity: 1; top:29px;}
+		13%{opacity: 1; top:29px;}
+		23%{opacity: 0; top:39px;}
 		100%{opacity: 0;}
 	}
 	.logo p{
@@ -145,9 +145,10 @@ function handleComplete(evt,comp) {
 		100%{opacity: 0;}
 	}
 	.h1{
-		top:120px;
+		font-family: 'Montserrat', sans-serif;
+		top:134px;
 		left:90px;
-		font-size: 21px;
+		font-size: 17px;
 		animation-name: h1;
 		animation-duration: 11s;
 		animation-iteration-count: infinite;
@@ -155,16 +156,17 @@ function handleComplete(evt,comp) {
 	}
 	@keyframes h1 {
     0%{opacity: 0;}
-		25%{opacity: 0; left:97px;}
-		37%{opacity: 1; left:90px;}
-		45%{opacity: 1; left:90px;}
-		54%{opacity: 0; left:83px;}
+		25%{opacity: 0; left:110px;}
+		37%{opacity: 1; left:100px;}
+		45%{opacity: 1; left:100px;}
+		54%{opacity: 0; left:90px;}
 		100%{opacity:0;}
 	}
 	.h2{
-		top:143px;
+		font-family: 'Montserrat', sans-serif;
+		top:157px;
 		left:74px;
-		font-size: 21px;
+		font-size: 17px;
 		animation-name: h2;
 		animation-duration: 11s;
 		animation-iteration-count: infinite;
@@ -172,10 +174,10 @@ function handleComplete(evt,comp) {
 	}
 	@keyframes h2 {
     0%{opacity: 0;}
-		25%{opacity: 0; left:81px;}
-		37%{opacity: 1; left:74px;}
-		45%{opacity: 1; left:74px;}
-		54%{opacity: 0; left:67px;}
+		25%{opacity: 0; left:100px;}
+		37%{opacity: 1; left:90px;}
+		45%{opacity: 1; left:90px;}
+		54%{opacity: 0; left:80px;}
 		100%{opacity: 0;}
 	}
 	h1{
@@ -187,11 +189,12 @@ function handleComplete(evt,comp) {
     text-align: right;
 	}
 .h3{
+	font-family: 'Montserrat', sans-serif;
 	position: absolute;
 	top:10px;
 	left:20px;
 	letter-spacing:3px;
-	color:#044b7c;
+	color:#246463;
 	animation-name: h3;
 	animation-duration: 11s;
 	animation-iteration-count: infinite;
@@ -221,7 +224,7 @@ function handleComplete(evt,comp) {
 	position: absolute;
 	z-index: 100;
 	font-size: 19px;
-	color:#044b7c;
+	color:#246463;
 }
 .sait h1{
 	top:197px;
@@ -229,7 +232,7 @@ function handleComplete(evt,comp) {
 	position: absolute;
 	z-index: 100;
 	font-size: 11px;
-	color:#044b7c;
+	color:#246463;
 }
 .nomer h1, .sait h1, .box{
 	animation-name: box;
@@ -252,8 +255,8 @@ function handleComplete(evt,comp) {
 <body onload="init();" style="margin:0px;">
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:500px; height:220px">
 		<div class="logo">
-			<img src="images/logo/logo.png" alt="">
-			<p>QAZEXPO<br>congress</p>
+			<img src="images/logo/logo1.png" alt="">
+			<!-- <p>QAZEXPO<br>congress</p> -->
 		</div>
 		<h1 class="h1">ДАРИ ВРЕМЯ</h1><h1 class="h2"> СВОЕЙ СЕМЬЕ</h1>
 		<h1 class="h3">NUR ALEM</h1>
